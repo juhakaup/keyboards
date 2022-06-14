@@ -27,7 +27,7 @@ The controller holder bracker is designed to fit a 35mm x 17.7mm pro-micro clone
 
 The trrs holder support thing does not need to be mirrored.
 
-<img src="./Cygnus%20v0.5/images/brackets.JPG" alt="brackets" width="512"/>
+<img src="./images/brackets.JPG" alt="brackets" width="512"/>
 
 ## Other parts
 
@@ -39,6 +39,6 @@ The part number for the jack is PJ-320A.
 
 ## Some pictures of my build:
 
-<img src="./Cygnus%20v0.5/images/top.JPG" alt="top view" width="1024"/>
-<img src="./Cygnus%20v0.5/images/profile.JPG" alt="profile" width="1024"/>
-<img src="./Cygnus%20v0.5/images/side.JPG" alt="side" width="1024"/>
+<img src="./images/top.JPG" alt="top view" width="1024"/>
+<img src="./images/profile.JPG" alt="profile" width="1024"/>
+<img src="./images/side.JPG" alt="side" width="1024"/>
