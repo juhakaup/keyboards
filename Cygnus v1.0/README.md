@@ -14,7 +14,7 @@ So for each halve you need:
 * Case bottom
 * Pair of brackets to fit your controller
 
-<p float="left">
+<p float="left" align="center">
 <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/casetop.jpg">
 <img src="img/casetop.jpg" alt="various controllers" style="width:240px;"/>
 </a>
@@ -33,7 +33,10 @@ I usually print with 0.15mm layer height and set the number of perimeters to 4. 
 The controller is held in place by slotting it between the two brackets. This way differently sized controllers can be used without modifying the case. Printing the brackets only takes few minutes, so modifying them to find a good fit is quite easy.
 
 I've pre-made a few brackets to support various popular controllers. Such as the Elite-C, RP2040-zero and a couple of pro-micro clones that I had laying around.
+
+<p align="center">
 <img src="img/controllers.jpg" alt="various controllers" style="width:600px;"/>
+</p>
 
 ### Components
 <table>
@@ -181,12 +184,12 @@ I've pre-made a few brackets to support various popular controllers. Such as the
 Prepare the 3d printed parts by sanding if needed. At least make sure that the case halves fit together nicely.
 
 Next add the brass inserts to the top halve of the case. You can use a soldering iron for this. Lower the temperature, if possible, I set mine to about 300°C. Getting the inserts straight can be a bit tricky without a proper tool, but it's doable. 
-<p float="left">
+<p float="left" align="center">
 <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/caseinsert.jpg">
-<img src="img/caseinsert.jpg" alt="various controllers" style="width:300;"/>
+<img src="img/caseinsert.jpg" alt="brass inserts" style="width:300px;"/>
 </a>
 <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/caseinserts2.jpg">
-<img src="img/caseinserts2.jpg" alt="various controllers" style="width:300;"/>
+<img src="img/caseinserts2.jpg" alt="brass insert locations" style="width:300px;"/>
 </a>
 </p>
 
@@ -199,7 +202,7 @@ Ordering the pcbs from prototype manufacturers such as jlcpcb or pcbway is quite
 The pcbs come in these 5x5 plates. I usually solder the components first and then separate the individual boards. Remove the tabs from the sides by sanding as the boards won't fit to the case with them.
 
 I recommend using surface mount diodes, but the pcbs do support through hole diodes as well. The side without the components should be flat to avoid interference with case, so you use through hole diodes, solder them from the component side and cut the legs flush.
-<p float="left">
+<p float="left" align="center">
 <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/pcbsmd.jpg">
 <img src="img/pcbsmd.jpg" alt="various controllers" style="width:200px;"/>
 </a>
@@ -218,15 +221,17 @@ Attach the assembled pcbs to the case with the small screws. I've used two screw
 
 Inserting switches first and then placing the pcbs helps with the alignment and keeps the pcbs in place.
 
+<p align="center">
 <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/pcbscrews.jpg">
 <img src="img/pcbscrews.jpg" alt="various controllers" style="width:500px;"/>
 </a>
+</p>
 
 ### Wiring the matrix
 Next you need to connect the individual pcbs together to form the keyboard matrix. Attach the adjacent pcbs together from col to col and row to row. Solid core wire or something like diode legs work great here. 
 
 The first thumb key gets connected to the first column on the key well etc. Check the wiring diagram to see how I wired my keyboard.
-<p float="left">
+<p float="left" align="center">
 <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/pcbwiring.jpg">
 <img src="img/pcbwiring.jpg" alt="various controllers" style="width:240px;"/>
 </a>
@@ -257,26 +262,59 @@ So I attach the tip to the VCC-pin and the ring to GND and finally the sleeve, c
 
 ### Connecting the matrix
 
+<p align="center">
 <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/wiring.jpg"><img src="img/wiring.jpg" alt="wiring" style="width:800px;"/></a>
+</p>
 
 I used thin 28awg wire for connecting the matrix. Basically you can attach the wires to any point on each row or column. I descided to attach the columns to the pads for the choc-switches since they are directly connected to the columns. For the rows I just used the row-holes.
 
+<p align="center">
 <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/wiringmatrix.jpg">
 <img src="img/wiringmatrix.jpg" alt="connecting the matrix" style="width:420px;"/>
 </a>
+</p>
 
 I wired the matrix to the controller the same way as in the [Corne-keyboard](https://github.com/foostan/crkbd). This means that you can use a Corne firmware and select Corne as target in online configurators. Another benefit is that hand wiring of the controller is easy as rows and columns are on opposide sides and in adjacent pins.
-
+<p align="center">
 <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/wiringcontroller2.jpg">
 <img src="img/wiringcontroller2.jpg" alt="connecting the controller" style="width:420px;"/>
 </a>
+</p>
 
 ### Assembly
 
 The reset switch is held in place with friction, so its just pushed in place. Push the TRS-socket to its hole, you probably need to trim one of the little nubs to get it to fully seat. After that attach the controller with the two brackets. It may be a bit tight depending on how you soldered the wires, but a little trimming can be done with an exacto knife. Finally attach the bracket from the bottom with the short  machine screw.
 
+<p float="left" align="center">
 <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/wiringcontroller.jpg">
-<img src="img/wiringcontroller.jpg" alt="wiring of the components" style="width:320px;"/>
+<img src="img/wiringcontroller.jpg" alt="wiring of the components" style="width:300px;"/>
 </a>
+<a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/wiringall.jpg">
+<img src="img/wiringall.jpg" alt="wiring of the components" style="width:532px;"/>
+</a>
+</p>
 
 All that is left is to close the case, making sure no wires get pinched, attach the  the five screws. Add the feet, switches and keycaps and you're done.
+
+
+
+<p float="left" align="center">
+<a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/done1.jpg">
+<img src="img/done1.jpg" alt="Side done" style="width:300px;"/>
+</a>
+<a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/done2.jpg">
+<img src="img/done2.jpg" alt="Side done" style="width:300px;"/>
+</a>
+<a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/done3.jpg">
+<img src="img/done3.jpg" alt="Side done" style="width:300px;"/>
+</a>
+<a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/done4.jpg">
+<img src="img/done4.jpg" alt="Side done" style="width:300px;"/>
+</a>
+<a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/done5.jpg">
+<img src="img/done5.jpg" alt="Side done" style="width:300px;"/>
+</a>
+<a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/done6.jpg">
+<img src="img/done6.jpg" alt="Side done" style="width:300px;"/>
+</a>
+</p>
