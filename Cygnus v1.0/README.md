@@ -119,7 +119,7 @@ I've pre-made a few brackets to support various popular controllers. Such as the
         <td>Screws</td>
         <td><a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/parts/screws.jpg"><img src="img/parts/screws.jpg" alt="small screws" style="width:100px;"/></a></td>
         <td>M1.4 x 5mm.<br>At least 2 per pcb.</td>
-        <td><a href="https://www.aliexpress.com/item/4000232858343.html?spm=a2g0o.order_list.order_list_main.67.127d1802zRyJj4">Aliexpress</a></td>
+        <td><a href="https://www.aliexpress.com/item/1005002672229310.html?spm=a2g0o.order_list.order_list_main.49.15e41802n6MSkJ">Aliexpress</a></td>
     </tr>
     <tr>
         <td>10</td>
