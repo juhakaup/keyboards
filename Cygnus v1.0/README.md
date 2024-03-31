@@ -6,6 +6,7 @@ Dactyl Cygnus is a minimalist 36-key ortholinear split keyboard. It draws inpira
 
 ## Build video
 I made  a video about building the keyboard.
+
 <a href="https://youtu.be/h_ex-oMVOrI">
 <img src="img/video.jpg" alt="various controllers" style="width:640px;"/>
 </a>
