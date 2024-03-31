@@ -4,6 +4,52 @@ Dactyl Cygnus is a minimalist 36-key ortholinear split keyboard. It draws inpira
 
 ![Dactyl cygnus](img/cygnus1.jpg)
 
+## Build video
+I made  a video about building the keyboard.
+<a href="https://youtu.be/h_ex-oMVOrI">
+<img src="img/video.jpg" alt="various controllers" style="width:640px;"/>
+</a>
+
+## Variants
+I've made a few variations of the design. 
+
+A lot of people asked for the 6 column version of the keyboard. Personally I'm used to 5 columns, so I haven't done extensive testing on the layout. I hope that it is adequate, but I'm also open to feedback.
+
+Both of the layouts also have a version with uniform pinky columns. I use my ring finder for the topmost keys, so that's why they are grouped with the other columns. This of course doesn't suit everyone, so you can use the unicol -versions if that fits your typing habbits.
+
+I also made a version of the case that is designed for wireless builds. This version replaces the TRRS-socket with a switch for disconnecting the battery. The wireless version supports a switch with specific dimensions and a [supermini](https://github.com/joric/nrfmicro/wiki/Alternatives#supermini-nrf52840) controller. 
+
+<table>
+    <tr>
+        <td>
+        3x5 <br>
+        <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/3x5_wireless.jpg">
+        <img src="img/3x5_wireless.jpg" alt="various controllers" style="width:340px;"/>
+        </a>
+        </td>
+        <td>
+        3x6 <br>
+        <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/3x6_draft.jpg">
+        <img src="img/3x6_draft.jpg" alt="various controllers" style="width:340px;"/>
+        </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        Unicolumn <br>
+        <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/unicol_draft.jpg">
+        <img src="img/unicol_draft.jpg" alt="various controllers" style="width:340px;"/>
+        </a>
+        </td>
+        <td>
+        Wireless <br>
+        <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/wireless.jpg">
+        <img src="img/wireless.jpg" alt="various controllers" style="width:340px;"/>
+        </a>
+        </td>
+    </tr>
+</table>
+
 ## Parts
 
 ### 3D printed parts
@@ -173,6 +219,40 @@ I've pre-made a few brackets to support various popular controllers. Such as the
         <td><a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/parts/feet.jpg"><img src="img/parts/feet.jpg" alt="brass inserts" style="width:100px;"/></a></td>
         <td>10mm diameter</td>
         <td></td>
+    </tr>
+</table>
+
+### Wireless version parts
+If you are building the wireless version, you don't need the TRRS sockets or the TRRS cable, use the wireless controller instead of the wired alternatives. I used a bit of double sided tape to fix the battery in place.
+
+<table>
+    <tr>
+        <th>Count</th>
+        <th>Part</th>
+        <th>Img</th>
+        <th>Info</th>
+        <th>Links</th>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Wireless controller</td>
+        <td></td>
+        <td>NRF52840 Development Board Supermini</td>
+        <td><a href="https://www.aliexpress.com/item/1005006035267231.html?spm=a2g0o.order_list.order_list_main.21.33da1802bWUmVz">Aliexpress</a></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Power switch</td>
+        <td></td>
+        <td>3.7mm x 3.7mm x 8.7mm, 5mm knob</td>
+        <td><a href="https://www.aliexpress.com/item/1005003938856402.html?spm=a2g0o.order_detail.order_detail_item.3.2b06f19c8r693T">Aliexpress</a></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Battery</td>
+        <td></td>
+        <td>A small 3.7v LiPo battery. <br> I used a 240mah, size: 20mm x 30mm x 7mm </td>
+        <td></a></td>
     </tr>
 </table>
 
