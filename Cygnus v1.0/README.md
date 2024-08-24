@@ -51,6 +51,16 @@ I also made a version of the case that is designed for wireless builds. This ver
     </tr>
 </table>
 
+### 4x6 variant
+
+I've also made a larger 4x6 variant for those who need the extra row for numbers or something like that. There is only one variation of the layout. I descided to drop the pinky island on this as it didn't feel as comfortable to use in the 6 column version. There are wired and wireless versions available.
+
+Check the build notes [here](4x6_build_notes.md).
+
+<p align="center">
+<img src="img/cygnus4x6.jpg" alt="4x6 variant" style="width:600px;"/>
+</p>
+
 ## Parts
 
 ### 3D printed parts
