@@ -1,4 +1,4 @@
-# Notes on 3 x 6 version
+# Notes on 4 x 6 version
 
 The build process is essentially the same for all versions, but here's some things to take into consideration.
 
