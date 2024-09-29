@@ -354,7 +354,10 @@ So I attach the tip to the VCC-pin and the ring to GND and finally the sleeve, c
 ### Connecting the matrix
 
 <p align="center">
-<a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/wiring.jpg"><img src="img/wiring.jpg" alt="wiring" style="width:800px;"/></a>
+<a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/wiring.jpg"><img src="img/wiring.jpg" alt="wiring for left side" style="width:800px;"/></a>
+</p>
+<p align="center">
+<a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/wiring-right.jpg"><img src="img/wiring-right.jpg" alt="wiring for right side" style="width:800px;"/></a>
 </p>
 
 I used thin 28awg wire for connecting the matrix. Basically you can attach the wires to any point on each row or column. I descided to attach the columns to the pads for the choc-switches since they are directly connected to the columns. For the rows I just used the row-holes.
