@@ -31,15 +31,15 @@ I also made a version of the case that is designed for wireless builds. This ver
         <td>
         3x6 <br>
         <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/3x6_draft.jpg">
-        <img src="img/3x6_draft.jpg" alt="various controllers" style="width:340px;"/>
+        <img src="img/3x6_uniwell.jpg" alt="various controllers" style="width:340px;"/>
         </a>
         </td>
     </tr>
     <tr>
         <td>
-        Unicolumn <br>
+        4x6 <br>
         <a href="https://github.com/juhakaup/keyboards/blob/main/Cygnus%20v1.0/img/unicol_draft.jpg">
-        <img src="img/unicol_draft.jpg" alt="various controllers" style="width:340px;"/>
+        <img src="img/4x6.jpg" alt="various controllers" style="width:340px;"/>
         </a>
         </td>
         <td>
